@@ -1,0 +1,245 @@
+body{
+    padding:0px;
+    margin:0px;
+  }
+  /* Nơi Chứa Hình Ảnh Và Nội Dung */
+  .container {
+    position: relative;
+    color: #FFF;
+    font-size:1.5rem;
+  }
+  /*Xác định độ rộng hình ảnh*/
+  img{
+    width:100%;
+  }
+  .img1{
+    width: auto;
+  }
+  .img2{
+    width: 1177.34px;
+    height: 658.3px;
+
+    border-radius: 81.4769px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .top_left {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    min-height: 42px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top_mid{
+    position: absolute;
+    top: 8px;
+    margin-left: 550px;
+    justify-content: space-between;
+  }
+
+  .top_right {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    margin-right: 50px;
+  }
+  .mid {
+    width:550px;
+    height: 188px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top:-100px
+  }
+  .mid_cen{
+    line-height: 40px;
+    max-width: fit-content;
+}
+  .mid_bott{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: auto;
+
+  }
+  .mid_cen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 786px;
+    height: 100px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+.nav-list {
+    padding-left: 0;
+    margin: auto 16px;
+}
+
+.nav-item {
+    color: #fff;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+.container1 {
+    position: relative;
+    font-size:1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    height: 1361.3px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;   
+  }
+.block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    margin-left: -130px;
+    width: 1777px;
+    height: 1361.3px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.block-content{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.block-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 52px;
+    width: 865px;
+    height: 257px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.block-item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    text-align: center;
+    width: 255px;
+    height: 257px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.block-item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    text-align: center;
+    width: 251px;
+    height: 224px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.block-item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    text-align: center;
+    width: 255px;
+    height: 257px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+/*Container2*/
+.container2{
+    padding: 32px 0;
+    min-height: 360px;
+    display: flex;
+    align-content: center;
+}
+.left-container2{
+    max-height: 350px;
+}
+.right-container2{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: auto;
+    margin-left: 100px;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 250px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.action-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 477px;
+    flex: none;
+    order: 2;
+    align-self: flex-start;
+    flex-grow: 0;
+}
