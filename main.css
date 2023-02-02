@@ -1,6 +1,6 @@
-body{
-    padding:0px;
-    margin:0px;
+* {
+    margin: 0;
+    padding: 0;
   }
   /* Nơi Chứa Hình Ảnh Và Nội Dung */
   .container {
@@ -123,6 +123,7 @@ body{
     order: 0;
     align-self: stretch;
     flex-grow: 0;   
+    margin-top: 50px;
   }
 .block2{
     display: flex;
@@ -211,6 +212,8 @@ body{
     min-height: 360px;
     display: flex;
     align-content: center;
+    flex-wrap: nowrap;
+    margin-left: 50px;
 }
 .left-container2{
     max-height: 350px;
@@ -227,10 +230,25 @@ body{
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 250px;
+    width: 324px;
     flex: none;
     order: 1;
+    align-self: flex-start;
     flex-grow: 0;
+    max-height: 300px;
+    gap: 7px;
+}
+.text-content1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 324px;
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    font-size: 40px;
 }
 .action-content{
     display: flex;
@@ -238,8 +256,38 @@ body{
     align-items: flex-start;
     padding: 0px;
     width: 477px;
+    height: 150px;
     flex: none;
     order: 2;
     align-self: flex-start;
     flex-grow: 0;
+    gap: 7px;
+    margin-top: 30px;
+}
+.mail{
+  height: 30px;
+  border-radius: 15px;
+  width: 200px;
+}
+.mail-but{
+  margin-top: 30px;
+  height: 35px;
+  border-radius: 15px;
+  width: 100px;
+  background-color: #2091F9;
+  color: #FFF;
+}
+.container3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 226px 82px;
+  gap: 10px;
+  width: 1777px;
+  height: 924px;
+  background: #FFFFFF;
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
 }
